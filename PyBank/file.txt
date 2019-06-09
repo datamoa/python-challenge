@@ -1,0 +1,6 @@
+str1
+'Total months: ' + str(total_months_1)
+'Total: ' + '$' + str(total_profit_loss)
+'Average change: ' + '$' + str(average)
+'Greatest increase in Profits: ' + max_month + ' $' + str(max_increase)
+'Greatest decrease in Profits: ' + min_month + ' $'+ str(min_decrease)
