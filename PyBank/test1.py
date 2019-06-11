@@ -6,7 +6,7 @@ file = ('03-Python_homework_PyBank_Resources_budget_data.csv')
 with open (file, newline='') as csvfile:
     csvreader = csv.reader(csvfile)
     header_row = next(csvreader)
-   #Set an empty list for each set of datas
+   #Set an empty list for  set of datas
     profit_loss = []
     total_months = []
     # Set an empty list for profit/loss and start a count as 0 to find the incremental 
@@ -17,7 +17,6 @@ with open (file, newline='') as csvfile:
     # Set a condition to skip the first row of incremental because it doesnt have a data
       if len(total_months) > 0:
           profit_loss.append ( int(row[1]) - int(prev_profit_loss) ) 
-     #Add data to list
       total_months.append (row[0])
       profit_loss_raw.append(row[1])
       prev_profit_loss = row[1]
@@ -49,13 +48,3 @@ print("Total: " + "$" + str(total_profit_loss))
 print("Average change: " + "$" + str(average))
 print("Greatest increase in Profits: " + max_month + " $" + str(max_increase))
 print("Greatest decrease in Profits: " + min_month + " $" + str(min_decrease))
-
-file1 = open("file.txt", "w")
-save_file = ["str1\n",
-    "'Total months: ' + str(total_months_1)\n",
-    "'Total: ' + '$' + str(total_profit_loss)\n",
-    "'Average change: ' + '$' + str(average)\n",
-    "'Greatest increase in Profits: ' + max_month + ' $' + str(max_increase)\n",
-    "'Greatest decrease in Profits: ' + min_month + ' $'+ str(min_decrease)"]
-file1.writelines(save_file)
-file1.close()
