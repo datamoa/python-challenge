@@ -1,4 +1,5 @@
 str1
+Financial Analysis
 'Total months: ' + str(total_months_1)
 'Total: ' + '$' + str(total_profit_loss)
 'Average change: ' + '$' + str(average)
