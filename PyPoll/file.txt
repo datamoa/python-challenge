@@ -1,0 +1,5 @@
+str1
+Election Results
+'Total voters: ' + str(total_voters)
+item[0] + ': ' + str(percent) + '%' + ', ' + str(item[1])
+'Winner is ' + winner_name
