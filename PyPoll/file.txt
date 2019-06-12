@@ -1,5 +1,5 @@
 str1
 Election Results
 Total voters: 3521001
-item[0]: 3%, 105630
-'Winner is Khan
+O'Tooley: 3%, 105630
+Winner is Khan
