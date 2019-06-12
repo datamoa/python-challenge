@@ -38,9 +38,9 @@ with open(file, newline="") as csvfile:
 
 py_poll = open("file.txt", "w")
 save_py_poll = ["str1\n",
-    "Election Results\n",
-    "'Total voters: ' + str(total_voters)\n",
-    "item[0] + ': ' + str(percent) + '%' + ', ' + str(item[1])\n",
-    "'Winner is ' + winner_name\n",]
+    "Election Results" + "\n",
+    "Total voters: " + str(total_voters) + "\n",
+    "item[0]" + ': ' + str(percent) + '%' + ', ' + str(item[1]) + "\n",
+    "'Winner is " + winner_name + "\n",]
 py_poll.writelines(save_py_poll)
 py_poll.close()

@@ -53,10 +53,10 @@ print("Greatest decrease in Profits: " + min_month + " $" + str(min_decrease))
 file1 = open("file.txt", "w")
 save_file = ["str1\n",
     "Financial Analysis\n",
-    "'Total months: ' + str(total_months_1)\n",
-    "'Total: ' + '$' + str(total_profit_loss)\n",
-    "'Average change: ' + '$' + str(average)\n",
-    "'Greatest increase in Profits: ' + max_month + ' $' + str(max_increase)\n",
-    "'Greatest decrease in Profits: ' + min_month + ' $'+ str(min_decrease)"]
+    "Total months: " + str(total_months_1) + "\n",
+    "Total: " + '$' + str(total_profit_loss) + "\n",
+    "Average change: " + '$' + str(average) + "\n",
+    "Greatest increase in Profits: " + max_month + ' $' + str(max_increase) + "\n",
+    "Greatest decrease in Profits: " + min_month + ' $'+ str(min_decrease)]
 file1.writelines(save_file)
 file1.close()

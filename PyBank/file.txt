@@ -1,7 +1,7 @@
 str1
 Financial Analysis
-'Total months: ' + str(total_months_1)
-'Total: ' + '$' + str(total_profit_loss)
-'Average change: ' + '$' + str(average)
-'Greatest increase in Profits: ' + max_month + ' $' + str(max_increase)
-'Greatest decrease in Profits: ' + min_month + ' $'+ str(min_decrease)
+Total months: 86
+Total: $38382578
+Average change: $-2315
+Greatest increase in Profits: Feb-2012 $1926159
+Greatest decrease in Profits: Sep-2013 $-2196167
